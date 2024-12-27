@@ -1,0 +1,104 @@
+.offer-section {
+    background-color: #ffffff;
+    padding: 0.3rem 1rem;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-box {
+    background-color: #f4f4f4;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 850px;
+}
+
+.offer-content {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.3rem;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.bank-logos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.bank-logo {
+    width: 35px !important;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .offer-section {
+        width: 80%;
+    }
+
+    .offer-content {
+        font-size: 0.85rem;
+    }
+
+    .bank-logos {
+        gap: 0.8rem;
+    }
+
+    .bank-logo {
+        width: 30px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .offer-section {
+        width: 90%;
+    }
+
+    .offer-box {
+        flex-direction: column; /* Stack content vertically */
+        align-items: center;
+        padding: 1rem; /* Add more padding for better spacing */
+    }
+
+    .offer-content {
+        font-size: 0.8rem;
+        text-align: center; /* Center align text on smaller screens */
+        margin-bottom: 1rem; /* Add space between content and logos */
+    }
+
+    .bank-logos {
+        justify-content: center; /* Center logos on mobile */
+        gap: 0.5rem;
+    }
+
+    .bank-logo {
+        width: 25px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .offer-section {
+        width: 95%;
+    }
+
+    .offer-content {
+        font-size: 0.75rem;
+        text-align: center; /* Keep the text centered on very small screens */
+    }
+
+    .bank-logos {
+        gap: 0.3rem;
+    }
+
+    .bank-logo {
+        width: 20px !important;
+    }
+}

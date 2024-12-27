@@ -1,0 +1,14 @@
+/* Prevent horizontal scroll */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;  /* Disable horizontal scroll */
+  box-sizing: border-box;
+}
+
+/* Optional: If there are issues with large elements, prevent wrapping */
+* {
+  box-sizing: inherit;
+  max-width: 100%;
+}

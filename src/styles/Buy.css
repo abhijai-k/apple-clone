@@ -1,0 +1,182 @@
+.box-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.box-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.image-section {
+  margin-top: 20px;
+}
+
+.box-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.environmental-goals {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.environmental-heading {
+  font-size: 18px;
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+}
+
+.environmental-text {
+  font-size: 14px;
+  color: #333;
+  margin-top: 15px;
+  line-height: 1.6;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blue-text {
+  color: rgb(0, 102, 219);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.blue-text:hover {
+  text-decoration: underline;
+}
+
+.more-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 40px;
+}
+
+.icons-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.icon-container {
+  text-align: center;
+  width: 30%;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.icon-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.icon-text {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .box-section, .environmental-goals, .icons-section {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .box-heading {
+    font-size: 20px;
+  }
+
+  .image-section {
+    margin-top: 10px;
+  }
+
+  .environmental-heading {
+    font-size: 16px;
+  }
+
+  .environmental-text {
+    font-size: 13px;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .more-heading {
+    font-size: 1.5rem;
+  }
+
+  .icons-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .icon-container {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .box-image {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .blue-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .box-heading {
+    font-size: 18px;
+  }
+
+  .environmental-heading {
+    font-size: 14px;
+  }
+
+  .environmental-text {
+    font-size: 12px;
+  }
+
+  .more-heading {
+    font-size: 1.2rem;
+  }
+
+  .icons-section {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .icon-container {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  .icon-heading {
+    font-size: 16px;
+  }
+
+  .icon-text {
+    font-size: 12px;
+  }
+}

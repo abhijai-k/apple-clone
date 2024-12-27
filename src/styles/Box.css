@@ -1,0 +1,301 @@
+.buy-section {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.left-section {
+  width: 45%;
+  text-align: left;
+}
+
+.black-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+.box-heading {
+  font-size: 2rem;
+}
+
+.gray-heading {
+  font-size: 18px;
+  color: gray;
+}
+
+.image-section {
+  margin-top: 20px;
+}
+
+.iphone-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.middle-section {
+  width: 45%;
+  text-align: center;
+}
+
+.model-name {
+  font-size: 18px;
+  font-weight: normal;
+  color: #333;
+}
+
+.price-info {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.or-text {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 10px;
+  color: #333;
+}
+
+.cashback-section {
+  margin-top: 15px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.cashback-text {
+  font-size: 14px;
+  color: rgb(0, 102, 219);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.plus-button {
+  width: 24px;
+  height: 24px;
+  background-color: #0078e7;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.plus-button:hover {
+  background-color: #005bb5;
+}
+
+.cashback-line,
+.delivery-line {
+  margin-top: 10px;
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+
+.moment-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.moment-heading {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.moment-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.save-section {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.save-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.save-later {
+  font-size: 14px;
+  color: rgb(0, 102, 219);
+  font-weight: bold;
+}
+
+.save-later:hover {
+  text-decoration: underline;
+}
+
+.delivery-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.right-section {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.delivery-info,
+.pickup-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.delivery-info p,
+.pickup-info p {
+  margin: 0;
+}
+
+.delivery-icon,
+.pickup-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.delivery-text,
+.pickup-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.add-to-bag-section {
+  margin-top: 10px;
+}
+
+.add-to-bag-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #0078e7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-bag-button:hover {
+  background-color: #005bb5;
+}
+
+.icons-section {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon-item img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  .buy-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .left-section, .middle-section, .right-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .black-heading {
+    font-size: 22px;
+  }
+
+  .iphone-image {
+    max-width: 80%;
+  }
+
+  .model-name {
+    font-size: 16px;
+  }
+
+  .price-info {
+    font-size: 14px;
+  }
+
+  .cashback-text {
+    font-size: 12px;
+  }
+
+  .moment-heading {
+    font-size: 14px;
+  }
+
+  .moment-text {
+    font-size: 12px;
+  }
+
+  .save-later {
+    font-size: 12px;
+  }
+
+  .add-to-bag-button {
+    width: 100%;
+  }
+
+  .icons-section {
+    flex-direction: column;
+  }
+
+  .icon-item {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .black-heading {
+    font-size: 20px;
+  }
+
+  .iphone-image {
+    max-width: 90%;
+  }
+
+  .price-info {
+    font-size: 13px;
+  }
+
+  .add-to-bag-button {
+    font-size: 14px;
+  }
+
+  .icons-section {
+    flex-direction: column;
+  }
+
+  .icon-item img {
+    width: 35px;
+    height: 35px;
+  }
+}
